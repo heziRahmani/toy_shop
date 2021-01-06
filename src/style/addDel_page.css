@@ -1,0 +1,54 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+--cl-blue:#4f7cc4;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+.signUp_container
+{
+    background-image: url("https://i.pinimg.com/originals/74/1b/96/741b96b7624c8f755d0b06019f514697.jpg");
+background-position: center;
+background-size: cover;
+}
+.add_del_container
+{
+/* width: 80%; */
+height: 70vh;
+margin: 0 auto;
+/* scroll-behavior: none; */
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+font-family: var(--ff-popins-);
+
+
+}
+
+.add_del_box
+{
+    width: 100%;
+    /* min-height: 100%; */
+    
+}

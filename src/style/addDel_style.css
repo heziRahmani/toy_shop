@@ -1,0 +1,135 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+
+
+.addDel_user_container
+{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.addDel_user_h3
+{
+    padding: 3em;
+}
+
+
+.add_input_box label{
+padding-right: 1.5em;
+}
+
+.addDel_input_box
+{
+    margin: 1.5em 0em 1.5em 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.addDel_input_box label{
+padding-right: 1.5em;
+font-family: var(--ff-cod-);
+font-weight: var(--fw-bold);
+}
+.addDel_user_form
+{
+width: 100%;
+height: 200px;
+/* border: 0.1em solid black; */
+
+padding: 3em;
+
+}
+
+
+.login_input
+{
+width: 80%;
+}
+
+
+
+.addDel_user_btn
+{
+    background-color: transparent;
+    border: 0.1em solid var(--cl-hedLine);
+    border-radius: 20px;
+
+    padding: 0.2em 0.4em;
+    margin: 0em 0em 0.5em 10px;
+
+    transition: 250ms ease-in-out;
+
+    font-family: var(--ff-popins-);
+}
+
+
+
+.addDel_user:hover
+{
+    transform: scale(1.1);
+    border: 0.1em solid blue;
+    font-family: var(--ff-popins-);
+
+}
+
+.del_btn
+{
+    margin-top: 8%;
+}
+
+.users_container
+{
+   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.imploy-list
+{
+    font-family: var(--ff-cod-);
+    font-size: 1.5em;
+    padding: 1em 2em 2em 2em;
+}
+.users_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}

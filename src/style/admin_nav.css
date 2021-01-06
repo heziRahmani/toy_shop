@@ -1,0 +1,94 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+--cl-blue:#4f7cc4;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+
+.admin_nav{
+    width: 100%; 
+    /* למחוק את הגובהה */
+  height: 100px;
+    background-color: var(--cl-ligth);
+    color: var(--cl-hedLine);
+
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+
+.nav_admin_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #424242;
+
+}
+
+.nav_admin_list_container
+{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.nav_admin_list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    list-style: none;
+    
+}
+
+.nav_admin_list_link:link{
+    list-style: none;
+    text-decoration: none;
+
+    
+}
+.nav_admin_list_link:visited {
+    color: var(--cl-hedLine);
+    
+}
+.nav_admin_list_link:active {
+    color: var(--cl-hedLine);
+    
+}
+
+.nav_admin_list_item
+{
+    padding: 1em;
+}
+
+

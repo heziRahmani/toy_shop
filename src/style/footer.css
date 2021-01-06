@@ -1,0 +1,38 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+
+.shop_footer_container
+{
+    width: 100%;
+    height: 10%;
+    background-color: var(--cl-hedLine);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-popins-);
+    color: var(--cl-ligth);
+}

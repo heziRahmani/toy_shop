@@ -1,0 +1,134 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+
+
+
+}
+
+.login_container
+{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: top;
+align-items: center;
+
+background-image: url("https://i.pinimg.com/originals/74/1b/96/741b96b7624c8f755d0b06019f514697.jpg");
+background-position: center;
+background-size: cover;
+
+
+}
+
+
+.login_info_box
+{
+    height: min-content;
+    width: 60%;
+   
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.login_info
+{
+/* font-family: var(--ff-popins-); */
+font-family: var(--ff-cod-);
+/* font-weight: var(--fw-budy); */
+font-weight: var(--fw-bold);
+font-size: 1.5em;
+padding: 0.2em 0.1em 0em 2.5em;
+}
+.login_info span
+{
+    color: #3a38b3;
+    font-size: 2em;
+}
+.hire
+{
+    font-family: var(--ff-cod-);
+    color: #3a38b3;
+    font-size: 1.4em !important;  
+}
+.addDel_user_h3
+{
+    padding: 3em;
+}
+
+.login_input_box
+{
+    margin: 1.5em 0em 1.5em 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.login_input_box label{
+padding-right: 1.5em;
+font-family: var(--ff-cod-);
+font-weight: var(--fw-bold);
+}
+
+.login_form
+{
+width: 50%;
+height: 200px;
+/* border: 0.1em solid black; */
+
+padding: 3em;
+
+}
+
+
+.login_input
+{
+width: 80%;
+}
+
+
+
+
+
+
+/*  */
+.logIn_btn
+{
+  padding: 10px 30px;
+  
+ 
+background-image: linear-gradient(45deg,rgba(255, 255, 255, 0)  20%,var(--cl-blue)  60%,#fff 20%);
+background-position: 100%;
+background-size: 500%;
+
+  border: 2px solid varvar(--cl-blue);
+  border-radius: 20%;
+  color: varvar(--cl-blue);
+  transition:background-position  1s ease-in, transform  0.5s ease-in;
+  
+}
+
+.logIn_btn:hover{
+    background-position: 0%;
+    color: var(--cl-blue);
+    transform: scale(1.1);
+
+}

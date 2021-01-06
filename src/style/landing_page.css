@@ -1,0 +1,62 @@
+
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+
+.lendingPage_container
+{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lendinPage_products
+{
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+margin-top: -10%;
+}
+
+.landindPage_card
+{
+    text-align: center;
+}

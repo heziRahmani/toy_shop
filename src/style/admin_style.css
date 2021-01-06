@@ -1,0 +1,86 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+
+
+.table_prods_container
+{
+    background-image: url("https://savageuniversal.com/wp-content/uploads/2015/05/1-whitebrick-update-1.jpg");
+background-position: center;
+background-size: cover;
+}
+.admin_table
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tabel_body
+{
+    background-color: transparent;
+    font-family: var(--ff-popins-);
+    font-weight: 550;
+    letter-spacing: 0.1em;
+
+}
+
+
+
+.tabel_body td
+{
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    border: 0.1em solid var(--cl-hedLine);
+}
+
+.admin_table_img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.tabel_body td button
+{
+    background-color: transparent;
+    border: 0.1em solid var(--cl-hedLine);
+    border-radius: 20px;
+
+    padding: 0.2em 0.4em;
+    margin: 0em 0em 0.5em 10px;
+
+    transition: 250ms ease-in-out;
+
+    font-family: var(--ff-popins-);
+}
+
+
+
+.prod_card_btn:hover
+{
+    transform: scale(1.1);
+    border: 0.1em solid rgba(223, 23, 66, 0.767);
+    font-family: var(--ff-popins-);
+
+}
+

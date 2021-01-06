@@ -1,0 +1,82 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cl-ligth:#fff;
+--cl-hedLine:#424242;
+/* --cl-budy:#fff */
+
+
+--fw-budy:300;
+--fw-bold:900;
+
+--ff-popins-:'Poppins', sans-serif;
+--ff-cod-:'Source Code Pro', monospace;
+/* font-family: 'Source Code Pro', monospace; */
+
+
+
+}
+
+.orders
+{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+
+.orders_container2
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+
+    background-image: url("https://i.pinimg.com/originals/74/1b/96/741b96b7624c8f755d0b06019f514697.jpg");
+background-position: center;
+background-size: cover;
+}
+
+
+  .order_box
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+      border: 1px solid black;
+      width: 90%;
+      margin: 0 auto;
+
+      font-family: var(--ff-popins-);
+      
+  }
+  .order_item
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:start;
+    /* justify-content: space-around; */
+      /* border: 1px solid black; */
+      width: 100%;
+      padding: 0.2em;
+  }
+
+  .order_num
+  {
+      width:10px !important;
+  }
+.order_item button
+{
+text-align: right !important;
+}
